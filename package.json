@@ -1,0 +1,26 @@
+{
+  "name": "domain-checker",
+  "version": "1.0.0",
+  "description": "A checker for available domains",
+  "main": "index.js",
+  "dependencies": {
+    "whois": "^2.13.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js DomainName"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cral-Cactus/Domain-Checker.git"
+  },
+  "keywords": [
+    "domain-checker"
+  ],
+  "author": "Cral_Cactus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cral-Cactus/Domain-Checker/issues"
+  },
+  "homepage": "https://github.com/Cral-Cactus/Domain-Checker#readme"
+}
