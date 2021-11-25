@@ -30,7 +30,7 @@ class Checker {
 
                         if (this.saveAvailable) fs.writeFile('available.txt', this.checked.available.join('\n'), (err) => {
                             if (err) throw err;
-                            console.log('\n+ The available domains have been saved to available.txt');
+                            console.log('\n+ Available domains have been saved to available.txt');
                         });
 
                         return;
